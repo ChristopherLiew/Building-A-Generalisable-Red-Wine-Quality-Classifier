@@ -12,7 +12,7 @@ wine_df = pd.read_csv("red_wine_quality.csv")
 wine_df['good_quality'] = wine_df['quality'] >= 7
 target = wine_df['good_quality'].astype(int)
 
-# Create interaction terms
+# Create interaction terms (Domain Knowledge)
 features_df = wine_df.iloc[:, :-2]
 scaler = MinMaxScaler()
 features_df_scaled = pd.DataFrame(scaler.fit_transform(features_df), columns=features_df.columns)
@@ -37,12 +37,13 @@ final_df.head()
 # Train-Test data
 X_test, X_train, y_test, y_train = train_test_split(final_df, target, test_size=0.25, random_state=0)
 
-# Scale the training and testing sets independently using Robust Sclaer to mitigate the effect of Outliers
+# Feature Scaling: Scale the training and testing sets using Robust Scaler to mitigate the effect of Outliers
+# Scaled independently to minimise data leakage*
 rob_scaler = RobustScaler()
 X_test_sc = pd.DataFrame(rob_scaler.fit_transform(X_test), columns=X_test.columns)
 X_train_sc = pd.DataFrame(rob_scaler.fit_transform(X_train), columns=X_train.columns)
 
-# Row-wise Standard Scaler to improve class separation in feature space
+# Row-wise Standard Scaling to improve class separation in feature space
 std_scaler = StandardScaler()
 X_test_sc = pd.DataFrame(std_scaler.fit_transform(X_test_sc), columns=X_test_sc.columns)
 X_train_sc = pd.DataFrame(std_scaler.fit_transform(X_train_sc), columns=X_train_sc.columns)
