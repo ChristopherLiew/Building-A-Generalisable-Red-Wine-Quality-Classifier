@@ -21,3 +21,8 @@ Due to the highly numerical nature of our features and our binary classification
 1. Macro Averaged F1 Score (*Due to underlying Target Class imbalance*)
 2. Precision-Recall Curve
 3. ROCAUC (*Biased to dominant class*)
+
+## Tools Used
+We largely used Jupyter (CoLab) notebooks due to their versatility and for presentational purposes. However, hyperparameter optimisation was done locally on our computers to speed things up. The code for the project was written in Python 3.7.
+
+### Please refer to our report for our analyses, insights & conclusion 
