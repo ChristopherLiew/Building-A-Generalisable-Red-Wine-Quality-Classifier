@@ -3,7 +3,7 @@
 
 ## In the Pipeline
 1. NN Binary Classification
-2. Deploying our models on SMOTE-ed datasets
+2. Deploying our models on a SMOTE-ed *red wine quality* dataset
 
 ## Objective & Approach
 This project aims to identify, build and tune a classification models to classify quality red wine samples based on their characteristics.
