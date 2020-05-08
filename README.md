@@ -7,7 +7,7 @@
 
 ## Objective & Approach
 This project aims to identify, build and tune a classification models to classify quality red wine samples based on their characteristics.
-In order to achieve this, we will use a combination of red wine domain knowledge, such as their chemical properties and taste profiles, and statistical learning techniques, namely classification algorithms (Linear, Non-Linear, Tree-Based Algorithms etc). We also attempted to use statisitcal hypotheses testing as a means of determining and validating key characteristics of good quality red wines. With regards to this, we decided on permutation importance as our key test statistic due to its generalisability and usefulness in testing Tree Based Models.
+In order to achieve this, we will use a combination of red wine domain knowledge, such as their chemical properties and taste profiles, and statistical learning techniques, namely classification algorithms (Linear, Non-Linear, Tree-Based Algorithms etc). We also attempted to use statisitcal hypotheses testing as a means of determining and validating key characteristics of good quality red wines. With regards to this, we decided on **permutation importance** as our key test statistic due to its generalisability and usefulness in testing Tree Based Models.
 
 We will also look towards tapping into deep learning methods, such as *neural network classifiers*, to further improve on the efficacy of our classification endeavours.
 
