@@ -12,7 +12,7 @@ We also attempted to use statisitcal hypotheses testing as a means of determinin
 
 We will also look towards tapping into deep learning methods, such as *neural network classifiers*, to further improve on the efficacy of our classification endeavours.
 
-## Feature Selection & Preprocessing
+## Feature Selection & Feature Scaling
 Due to the highly numerical nature of our features and our binary classification outcome, we decided on ANOVA as our feature selection method. This is as ANOVA's F-Score will allow us to determine the '*separability*' of the feature's data when grouped by the target class (i.e we select features with *High Between Group Variability* vs. *Within Group Variability* or distinctly different means)
 
 We applied feature scaling using the *Robust Scaler*, due to a significant number of observed outliers in the dataset. Of which, we have decided to keep in order to minimise variance and boost generalisability. However, feature scaling was not necessary and thus not applied to the training sets of models which did not depend on the computation of *euclidean distances* for optimisation (i.e. Probabilistic Naive Bayes, CART algorithms, etc).
