@@ -1,6 +1,10 @@
 # Classifying-Red-Wine-Quality
 ![RedWine Image](https://assets.bonappetit.com/photos/5c8940dc92041125f06c3b63/16:9/w_2560%2Cc_limit/Basically-Red-Wine-02.jpg)
 
+## In the Pipeline
+1. NN Binary Classification
+2. Deploying our models on SMOTE-ed datasets
+
 ## Objective & Approach
 This project aims to identify, build and tune a classification models to classify quality red wine samples based on their characteristics.
 In order to achieve this, we will use a combination of red wine domain knowledge, such as their chemical properties and taste profiles, and statistical learning techniques, namely classification algorithms (Linear, Non-Linear, Tree-Based Algorithms etc). We also attempted to use statisitcal hypotheses testing as a means of determining and validating key characteristics of good quality red wines. With regards to this, we decided on permutation importance as our key test statistic due to its generalisability and usefulness in testing Tree Based Models.
