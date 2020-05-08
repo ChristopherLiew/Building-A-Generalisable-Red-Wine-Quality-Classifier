@@ -1,4 +1,4 @@
-# Classifying-Red-Wine-Quality
+# Building A Generalisable Red Wine Quality Classifier
 ![RedWine Image](https://assets.bonappetit.com/photos/5c8940dc92041125f06c3b63/16:9/w_2560%2Cc_limit/Basically-Red-Wine-02.jpg)
 
 ## In the Pipeline
