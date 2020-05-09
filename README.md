@@ -28,7 +28,7 @@ We applied feature scaling using the *Robust Scaler*, due to a significant numbe
 ## Model Evaluation Approach 
 1. Macro Averaged F1 Score (*Due to underlying Target Class imbalance*)
 2. Precision-Recall Curve
-3. ROCAUC (*Biased to dominant class*)
+3. AUROC (*Biased to dominant class*)
 
 ## Tools Used
 We largely used Jupyter (CoLab) notebooks due to their versatility and for presentational purposes. However, hyperparameter optimisation was done locally on our computers to speed things up. The code for the project was written in Python 3.7.
