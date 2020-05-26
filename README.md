@@ -17,13 +17,12 @@ Due to the highly numerical nature of our features and our binary classification
 
 We applied feature scaling using the *Robust Scaler*, due to a significant number of observed outliers in the dataset. Of which, we have decided to keep in order to minimise variance and boost generalisability. However, feature scaling was not necessary and thus not applied to the training sets of models which did not depend on the computation of *euclidean distances* for optimisation (i.e. Probabilistic Naive Bayes, CART algorithms, etc).
 
-## Classification Methods Used (to be deployed)
+## Classification Methods Used
 1. Logistic Regression (Baseline)
 2. SVM - Linear & Gaussian RBF kernels
 3. Gaussian Naive Bayes
 4. Decision Trees, Random Forests & Gradient Boosted Trees
-5. L1 & L2 regularisation 
-6. NN Binary Classifier (*TBD*)
+5. NN Binary Classifier (*TBD*)
 
 ## Model Evaluation Approach 
 1. Macro Averaged F1 Score (*Due to underlying Target Class imbalance*)
