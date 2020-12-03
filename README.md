@@ -2,8 +2,7 @@
 ![RedWine Image](https://assets.bonappetit.com/photos/5c8940dc92041125f06c3b63/16:9/w_2560%2Cc_limit/Basically-Red-Wine-02.jpg)
 
 ## In the Pipeline
-1. NN Binary Classification
-2. Deploying our models on a SMOTE-ed *red wine quality* dataset
+1. Deploying our models on a SMOTE-ed *red wine quality* dataset
 
 ## Objective & Approach
 This project aims to identify, build and tune generalisable classification models to classify quality red wine samples based on their characteristics. In order to achieve this, we will use a combination of red wine domain knowledge, such as their chemical properties and taste profiles, and statistical learning techniques, namely classification algorithms (Linear, Non-Linear, Tree-Based Algorithms etc). 
@@ -22,7 +21,7 @@ We applied feature scaling using the *Robust Scaler*, due to a significant numbe
 2. SVM - Linear & Gaussian RBF kernels
 3. Gaussian Naive Bayes
 4. Decision Trees, Random Forests & Gradient Boosted Trees
-5. NN Binary Classifier (*TBD*)
+5. MLP Binary Classifier
 
 ## Model Evaluation Approach 
 1. Macro Averaged F1 Score (*Due to underlying Target Class imbalance*)
